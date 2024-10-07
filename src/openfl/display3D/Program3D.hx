@@ -587,6 +587,8 @@ import lime.utils.BytePointer;
 	{
 		var gl = __context.gl;
 
+		if (gl == null) return;
+
 		if (__glProgram != null)
 		{
 			__glProgram = null;
